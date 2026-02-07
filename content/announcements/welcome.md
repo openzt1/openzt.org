@@ -35,7 +35,7 @@ When you start Zoo Tycoon with mods installed in the `mods` subdirectory, each m
 
  - A new `meta.toml` file for adding metadata such as a mod_id, author name and dependencies [docs](https://docs.zooberry.org/zt1/openzt/getting-started/)
  - Custom Habitats and Locations are now easier to make [docs](https://docs.zooberry.org/zt1/openzt/habitats_and_locations/)
- - You can now patch individual values or section in other zoo tycoon resources [docs](https://docs.zooberry.org/zt1/openzt/patch_mods/)
+ - You can now patch individual values or sections in other zoo tycoon resources [docs](https://docs.zooberry.org/zt1/openzt/patch_mods/)
  - New 'Roof' tag can be applied to scenery items, allowing them to be hidden with a `Ctrl-R` shortcut [docs](https://docs.zooberry.org/zt1/openzt/extensions/#complete-example-roof-extension-mod)
 
 
