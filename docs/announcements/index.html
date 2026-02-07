@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html class="scroll-smooth">
+<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  
+  <link rel="stylesheet" href="http://localhost:1313/css/main.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+  <title>Announcements</title>
+</head>
+<body class="font-sans bg-ozt-default">
+    
+    
+<nav class="text-white py-2 sticky top-0 z-50 shadow-lg transition duration-300 bg-ozt-default/80 backdrop-blur-lg">
+  <div class="flex items-center justify-between w-full max-w-6xl mx-auto h-14 px-8 sm:px-16 xl:px-0">
+    <div class="flex items-center gap-2">
+      <a class="font-bold text-2xl hover:text-ozt-accent px-1 py-1 transition duration-300" href="/">
+        <img src="http://localhost:1313/images/openztv1.png" alt="OpenZT" class="h-11 w-11 inline-block mr-2" width="50" height="50" loading="lazy" />
+        open<span class="text-ozt-accent">zt</span>
+      </a>
+    </div>
+    <div class="hidden lg:flex space-x-4 font-semibold">
+      <a href="/announcements" class="hover:text-ozt-accent transition duration-300">Announcements</a>
+      <a href="https://github.com/openzt1/openzt" class="hover:text-ozt-accent transition duration-300">Github</a>
+      <a href="https://discord.gg/ATqFYVsjkc" class="hover:text-ozt-accent transition duration-300">Discord</a>
+    </div>
+  </div>
+</nav>
+  
+
+    
+    
+<div class="flex flex-col items-center justify-center text-white py-10 px-8 sm:px-16 xl:px-0 bg-ozt-light min-h-screen">
+  <div class="w-full max-w-6xl">
+    <h1 class="text-4xl font-bold text-left my-10">
+      Announcements
+    </h1>
+
+    
+    <div class="flex flex-col gap-4">
+      
+        <div class="bg-ozt-sdark p-8 rounded-md shadow-lg">
+          <div class="flex flex-col">
+            
+            <div class="flex justify-between items-start mb-4">
+              <h2 class="text-3xl font-semibold text-white">
+                OpenZT 0.1.0 Released!
+              </h2>
+              
+                <span class="text-sm text-gray-300 whitespace-nowrap">
+                  February 6, 2025
+                </span>
+              
+            </div>
+
+            
+            <div class="text-white docs-content">
+              <p>We are pleased to announce the very first release of OpenZT 0.1.0. If you just want to jump straight in you can download OpenZT <a href="https://github.com/openzt1/openzt/releases/download/v0.1.0/res-openzt.dll">here</a>, to install simply drop it in your Zoo Tycoon install folder, most likely at <code>C:\Program Files (x86)\Microsoft Games\Zoo Tycoon</code>, however please be mindful of the following:
+Expect bugs! This is a first release and is yet to be widely tested. We recommend a new clean install of Zoo Tycoon and for all mods to be put in a &lsquo;mods&rsquo; subfolder rather than &lsquo;dlupdate&rsquo;, &lsquo;dupdate etc. We also recommend <strong>not</strong> editing the <code>path</code> field in <code>zoo.ini</code> and instead let OpenZT handle mod loading. Finally because OpenZT modifies the UI slightly the &lsquo;Allow Purchasing Young Hack&rsquo; hack does not <em>currently</em> work.</p>
+<h2 id="changes-for-users">Changes for users</h2>
+<h3 id="configuring-openzt">Configuring OpenZT</h3>
+<p>When you first run OpenZT it will create a new config file <code>openzt.toml</code> with some defaults, many of the features to follow are configured by editing this file.</p>
+<h3 id="user-customizable-menu-filters">User customizable menu filters</h3>
+<p>You can now create custom filters for the purchase menu in Zoo Tycoon. Under the <code>[expansions]</code> section in <code>openzt.toml</code> you can add an entry like this:
+<code>&quot;Filter Name&quot; = [&quot;elephant&quot;, &quot;zebra&quot;, &quot;my mod.ztd&quot;]</code>
+This will add a new filter called &ldquo;Filter Name&rdquo; that will only display the elephant, zebra and any animals, scenery or buildings in the &lsquo;my mod.ztd&rsquo; file.</p>
+<h3 id="configurable-mod-ordering-and-disabling">Configurable mod ordering and disabling</h3>
+<p>When you start Zoo Tycoon with mods installed in the <code>mods</code> subdirectory, each mod will be added to the <code>order</code> list under the <code>[mod_loading]</code> section in <code>openzt.toml</code>. These can then be reordered as needed. You can also add any of these mods to the <code>disabled</code> list and they will not get loaded.</p>
+<h3 id="bugfixes">Bugfixes</h3>
+<ul>
+<li>Fixed a crash when a maintenance worker repairs a fence one tile away from the edge of the map</li>
+<li>Fixed a crash when deleting a zoowall one tile away from the edge of the map</li>
+<li>Fixed an issue where special characters like ä in the filename of .ztds would prevent the mod from being loaded if the Windows language was set to English</li>
+</ul>
+<h2 id="changes-for-modders">Changes for modders</h2>
+<ul>
+<li>A new <code>meta.toml</code> file for adding metadata such as a mod_id, author name and dependencies <a href="https://docs.zooberry.org/zt1/openzt/getting-started/">docs</a></li>
+<li>Custom Habitats and Locations are now easier to make <a href="https://docs.zooberry.org/zt1/openzt/habitats_and_locations/">docs</a></li>
+<li>You can now patch individual values or section in other zoo tycoon resources <a href="https://docs.zooberry.org/zt1/openzt/patch_mods/">docs</a></li>
+<li>New &lsquo;Roof&rsquo; tag can be applied to scenery items, allowing them to be hidden with a <code>Ctrl-R</code> shortcut <a href="https://docs.zooberry.org/zt1/openzt/extensions/#complete-example-roof-extension-mod">docs</a></li>
+</ul>
+<h2 id="acknowledgement">Acknowledgement</h2>
+<p>This is by no means an exhaustive list but I would like to thank the following people for their assistance with the OpenZT project</p>
+<ul>
+<li>wowjinxy for an immense amount of reverse engineering</li>
+<li>Goosifer for reverse engineering, coding and this website!</li>
+<li>Gymnasiast for help reverse engineering the save game format</li>
+<li>Jay and Fern for sharing their ridiculous levels of knowledge about zoo tycoon modding and various file formats</li>
+<li>Vondell for the logo</li>
+<li>Many modders from the zoo tycoon community for their knowledge, ideas and enthusiasm</li>
+</ul>
+
+            </div>
+
+            
+            
+              <div class="text-right text-sm text-gray-300 opacity-70 mt-4">
+                Finn
+              </div>
+            
+          </div>
+        </div>
+      
+    </div>
+  </div>
+</div>
+
+    
+    <footer class="flex flex-wrap justify-center bg-ozt-default text-white py-4 px-8 sm:px-16 xl:px-0">
+    <div class="max-w-6xl px-8 sm:px-16 xl:px-0 text-left justify-center">
+      <p class="text-sm py-4 max-w-6xl">© 2025 OpenZT. All rights reserved.</p>
+    </div>
+</footer>
+</body>
+</html>

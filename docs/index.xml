@@ -1,2 +1,40 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>OpenZT</title><link>https://openzt.org/</link><description>Recent content on OpenZT</description><generator>Hugo</generator><language>en-us</language><lastBuildDate>Wed, 14 May 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://openzt.org/index.xml" rel="self" type="application/rss+xml"/><item><title>PANDA User Guide</title><link>https://openzt.org/docs/panda-user-guide/</link><pubDate>Wed, 14 May 2025 00:00:00 +0000</pubDate><guid>https://openzt.org/docs/panda-user-guide/</guid><description>PANDA (Project and Animal) Loader is a mod loader for Zoo Tycoon that lets users manage and install mods easily. It also functions as the main GUI for the OpenZT API, letting users enable scripting and other OpenZT features.
-Features Mod Management: Easily install, enable, disable, and remove mods. OpenZT Integration: Access OpenZT features directly from the GUI. Zoo.INI Settings: Modify Zoo.INI settings through the GUI. Search Functionality: Quickly find mods by title or author.</description></item><item><title>OpenZT</title><link>https://openzt.org/docs/_index-copy/</link><pubDate>Sat, 05 Apr 2025 00:00:00 +0000</pubDate><guid>https://openzt.org/docs/_index-copy/</guid><description>openzt is a project two years in the making. our goals for now are simple: finish phase 1 of the roadmap, which includes lua scripting support so that you can find new ways to mod the game, bug fixes, and a mod manager to make it easier to install and manage mods. join us on Discord to help us test the game and report bugs, or just to chat with other players and developers.</description></item><item><title/><link>https://openzt.org/docs/getting-started/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://openzt.org/docs/getting-started/</guid><description/></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>OpenZT</title>
+    <link>http://localhost:1313/</link>
+    <description>Recent content on OpenZT</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 14 May 2025 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>PANDA User Guide</title>
+      <link>http://localhost:1313/docs/panda-user-guide/</link>
+      <pubDate>Wed, 14 May 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/docs/panda-user-guide/</guid>
+      <description>&lt;p&gt;PANDA (Project and Animal) Loader is a mod loader for Zoo Tycoon that lets users manage and install mods easily. It also functions as the main GUI for the OpenZT API, letting users enable scripting and other OpenZT features.&lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&#34;../images/panda1.jpg&#34; alt=&#34;fig1&#34;&gt;&lt;/p&gt;&#xA;&lt;h2 id=&#34;features&#34;&gt;Features&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;strong&gt;Mod Management&lt;/strong&gt;: Easily install, enable, disable, and remove mods.&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;OpenZT Integration&lt;/strong&gt;: Access OpenZT features directly from the GUI.&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Zoo.INI Settings&lt;/strong&gt;: Modify Zoo.INI settings through the GUI.&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Search Functionality&lt;/strong&gt;: Quickly find mods by title or author.&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Sprite Extraction&lt;/strong&gt;: Extract icon sprites from mods for use in your own projects.&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h2 id=&#34;installation&#34;&gt;Installation&lt;/h2&gt;&#xA;&lt;p&gt;At the moment, PANDA does not have a binary installer. To install PANDA, you will need to compile it from source. You can find the source code on the &lt;a href=&#34;https://github.com/openztcc/PANDA&#34;&gt;PANDA GitHub repository&lt;/a&gt;.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>OpenZT</title>
+      <link>http://localhost:1313/docs/_index-copy/</link>
+      <pubDate>Sat, 05 Apr 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/docs/_index-copy/</guid>
+      <description>&lt;p&gt;openzt is a project two years in the making. our goals for now are simple: finish phase 1 of the roadmap, which includes lua scripting support so that you can find new ways to mod the game, bug fixes, and a mod manager to make it easier to install and manage mods. join us on Discord to help us test the game and report bugs, or just to chat with other players and developers.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>OpenZT 0.1.0 Released!</title>
+      <link>http://localhost:1313/announcements/welcome/</link>
+      <pubDate>Thu, 06 Feb 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/announcements/welcome/</guid>
+      <description>&lt;p&gt;We are pleased to announce the very first release of OpenZT 0.1.0. If you just want to jump straight in you can download OpenZT &lt;a href=&#34;https://github.com/openzt1/openzt/releases/download/v0.1.0/res-openzt.dll&#34;&gt;here&lt;/a&gt;, to install simply drop it in your Zoo Tycoon install folder, most likely at &lt;code&gt;C:\Program Files (x86)\Microsoft Games\Zoo Tycoon&lt;/code&gt;, however please be mindful of the following:&#xA;Expect bugs! This is a first release and is yet to be widely tested. We recommend a new clean install of Zoo Tycoon and for all mods to be put in a &amp;lsquo;mods&amp;rsquo; subfolder rather than &amp;lsquo;dlupdate&amp;rsquo;, &amp;lsquo;dupdate etc. We also recommend &lt;strong&gt;not&lt;/strong&gt; editing the &lt;code&gt;path&lt;/code&gt; field in &lt;code&gt;zoo.ini&lt;/code&gt; and instead let OpenZT handle mod loading. Finally because OpenZT modifies the UI slightly the &amp;lsquo;Allow Purchasing Young Hack&amp;rsquo; hack does not &lt;em&gt;currently&lt;/em&gt; work.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title></title>
+      <link>http://localhost:1313/docs/getting-started/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/docs/getting-started/</guid>
+      <description></description>
+    </item>
+  </channel>
+</rss>

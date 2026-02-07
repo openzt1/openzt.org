@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Announcements on OpenZT</title>
+    <link>http://localhost:1313/announcements/</link>
+    <description>Recent content in Announcements on OpenZT</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 06 Feb 2025 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/announcements/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>OpenZT 0.1.0 Released!</title>
+      <link>http://localhost:1313/announcements/welcome/</link>
+      <pubDate>Thu, 06 Feb 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/announcements/welcome/</guid>
+      <description>&lt;p&gt;We are pleased to announce the very first release of OpenZT 0.1.0. If you just want to jump straight in you can download OpenZT &lt;a href=&#34;https://github.com/openzt1/openzt/releases/download/v0.1.0/res-openzt.dll&#34;&gt;here&lt;/a&gt;, to install simply drop it in your Zoo Tycoon install folder, most likely at &lt;code&gt;C:\Program Files (x86)\Microsoft Games\Zoo Tycoon&lt;/code&gt;, however please be mindful of the following:&#xA;Expect bugs! This is a first release and is yet to be widely tested. We recommend a new clean install of Zoo Tycoon and for all mods to be put in a &amp;lsquo;mods&amp;rsquo; subfolder rather than &amp;lsquo;dlupdate&amp;rsquo;, &amp;lsquo;dupdate etc. We also recommend &lt;strong&gt;not&lt;/strong&gt; editing the &lt;code&gt;path&lt;/code&gt; field in &lt;code&gt;zoo.ini&lt;/code&gt; and instead let OpenZT handle mod loading. Finally because OpenZT modifies the UI slightly the &amp;lsquo;Allow Purchasing Young Hack&amp;rsquo; hack does not &lt;em&gt;currently&lt;/em&gt; work.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>
