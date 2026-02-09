@@ -6,8 +6,15 @@
     <description>Recent content in Announcements on OpenZT</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 06 Feb 2025 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 09 Feb 2025 00:00:00 +0000</lastBuildDate>
     <atom:link href="http://localhost:1313/announcements/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>OpenZT 0.1.1 Released</title>
+      <link>http://localhost:1313/announcements/patch-0.1.1/</link>
+      <pubDate>Sun, 09 Feb 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/announcements/patch-0.1.1/</guid>
+      <description>&lt;p&gt;Download the new release &lt;a href=&#34;https://github.com/openzt1/openzt/releases/download/v0.1.1/res-openzt.dll&#34;&gt;here&lt;/a&gt;&lt;/p&gt;&#xA;&lt;h3 id=&#34;bugfixes&#34;&gt;Bugfixes&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Fixes an issue where tank filters were always hidden in the buy tab&lt;/li&gt;&#xA;&lt;li&gt;Fixes an issue where modded expansion packs would break OpenZT expansion packs&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h2 id=&#34;acknowledgement&#34;&gt;Acknowledgement&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Credit to &amp;lsquo;funtimefredboy2&amp;rsquo; on discord for raising the tank filter bug&lt;/li&gt;&#xA;&lt;li&gt;Credit to &amp;lsquo;Mjmannella&amp;rsquo; on discord for raising the modded expansion packs breaking OpenZT expansion packs bug&lt;/li&gt;&#xA;&lt;/ul&gt;</description>
+    </item>
     <item>
       <title>OpenZT 0.1.0 Released!</title>
       <link>http://localhost:1313/announcements/welcome/</link>
